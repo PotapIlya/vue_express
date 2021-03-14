@@ -1,7 +1,9 @@
 <template>
     <Loader v-if="!statusLoader" />
     <div v-else>
-        12
+        <h3 v-if="user !== null">
+            {{ user.name }}
+        </h3>
     </div>
 </template>
 
@@ -18,12 +20,9 @@
             statusLoader: false,
         }),
         mounted() {
-            axios.post('http://localhost:3000/users/',
-                {
-                    id: this.$route.params.id,
-                })
+            axios.get('http://localhost:3000/users/'+ this.$route.params.id)
                 .then(res => {
-                    this.user = res.data;
+                    this.user = res.data[0];
                     this.statusLoader = true;
                 })
                 .catch(error => {

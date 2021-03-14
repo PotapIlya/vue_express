@@ -9,25 +9,14 @@ Vue.use(Router);
 export default new Router({
 routes: [
 
-        {
-            path: '/users',
-            name: 'Users',
-            component: Users
-        },
-        {
-            path: '/users/:id',
-            name: 'Show',
-            component: Show
-        },
+    /* Users */
+    { path: '/users',  name: 'Users',  component: Users },
+    { path: '/users/:id', name: 'Show', component: Show },
 
-        {
-            path: '/',
-            name: 'Home',
-            component: Home
-        },
-        {
-            path: '*',
-            redirect: '/'
-        }
-    ]
+    /* Index */
+    { path: '/', name: 'Home', component: Home },
+
+    /* All */
+    { path: '*', redirect: '/' }
+]
 })

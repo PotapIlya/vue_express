@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron'
+import { app, BrowserWindow, Menu, dialog } from 'electron'
 
 /**
  * Set `__static` path to static files in production
@@ -11,7 +11,8 @@ if (process.env.NODE_ENV !== 'development') {
 let mainWindow
 const winURL = process.env.NODE_ENV === 'development'
   ? `http://localhost:9080`
-  : `file://${__dirname}/index.html`
+  : `file://${__dirname}/index.html`;
+
 
 function createWindow () {
   /**
@@ -21,28 +22,61 @@ function createWindow () {
     height: 800,
     useContentSize: true,
     width: 1400
-  })
+  });
 
-  mainWindow.loadURL(winURL)
+    /* Menu */
+    const templates = [
+        {
+            label: "Фаил",
+            submenu:  [
+                {
+                    label: "Открыть",
+                    click: async () =>{
+                        dialog.showMessageBox({
+                            title: "Hello World",
+                            type: "info",
+                            message: "Выбран пункт 'Открыть' "
+                        })
+                    }
+                },
+                {
+                    label: "Сохранить",
+                    click: async () =>{
+                        dialog.showMessageBox({
+                            title: "Hello World",
+                            type: "info",
+                            message: "Выбран пункт 'Сохранить' "
+                        })
+                    }
+                },
+                { type: "separator" },
+                { role: "close" },
+            ]
+        }
+    ];
+    const menu = Menu.buildFromTemplate(templates);
+    Menu.setApplicationMenu(menu);
+
+  mainWindow.loadURL(winURL);
 
   mainWindow.on('closed', () => {
     mainWindow = null
   })
 }
 
-app.on('ready', createWindow)
+app.on('ready', createWindow);
 
 app.on('window-all-closed', () => {
   if (process.platform !== 'darwin') {
     app.quit()
   }
-})
+});
 
 app.on('activate', () => {
   if (mainWindow === null) {
     createWindow()
   }
-})
+});
 
 /**
  * Auto Updater

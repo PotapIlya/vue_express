@@ -1,5 +1,5 @@
 {
-  "name": "admin_panel",
+  "name": "front",
   "version": "0.0.1",
   "author": "PotapIlya <ilya.burenko.01@mail.ru>",
   "description": "An electron-vue project",
@@ -17,7 +17,7 @@
     "postinstall": ""
   },
   "build": {
-    "productName": "admin_panel",
+    "productName": "front",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"

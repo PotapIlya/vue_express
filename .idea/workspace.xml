@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88840a8d-721c-472d-9282-8698d9a98625" name="Default Changelist" comment="" />
+    <list default="true" id="88840a8d-721c-472d-9282-8698d9a98625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/front/build/icons/256x256.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/icons/icon.icns" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/front/build/icons/icon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/renderer/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/src/renderer/views/Users/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/renderer/views/Users/Show.vue" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,11 +27,30 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\OpenServer\domains\Electron_Vue\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1phzVrDOKEtC0227TtmnkI97ihD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/front/build/icons" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\Frontend\Electron_Vue\node_modules\prettier" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\Electron_Vue\front\build\icons" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -35,11 +65,41 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.dev">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build:dir" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build:dir" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/front/package.json" />
       <command value="run" />
       <scripts>
         <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="pack" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/front/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="pack" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -58,6 +118,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.dev" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.build:dir" />
+        <item itemvalue="npm.pack" />
         <item itemvalue="npm.watch" />
       </list>
     </recent_temporary>
@@ -73,11 +136,22 @@
       <option name="presentableId" value="Default" />
       <updated>1615650136663</updated>
       <workItem from="1615650138932" duration="4868000" />
-      <workItem from="1615655056434" duration="5515000" />
+      <workItem from="1615655056434" duration="9268000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
