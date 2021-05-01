@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88840a8d-721c-472d-9282-8698d9a98625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/front/build/icons/256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/icons/icon.icns" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/front/build/icons/icon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/back/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/back/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/front/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/main/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/renderer/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/src/renderer/views/Users/Show.vue" beforeDir="false" afterPath="$PROJECT_DIR$/front/src/renderer/views/Users/Show.vue" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +128,8 @@
       <updated>1615650136663</updated>
       <workItem from="1615650138932" duration="4868000" />
       <workItem from="1615655056434" duration="9268000" />
+      <workItem from="1615707260250" duration="130000" />
+      <workItem from="1615712084211" duration="1116000" />
     </task>
     <servers />
   </component>
@@ -148,7 +141,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

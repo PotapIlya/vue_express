@@ -12,3 +12,8 @@ exports.all =  (req, res) => {
 };
 
 
+exports.byId =  (req, res) =>
+{
+    //
+};
+
